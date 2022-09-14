@@ -16,8 +16,8 @@ House Prices Prediction dataset from Kaggle
 * **Sklearn**
 
 ## Steps Involved / Methodology
-* Data Exploration
-* Data Preprocessing
+* **Data Exploration**
+* **Data Preprocessing**
   * Exploring the target variable.
   * Determining missing values in the dataset.
   * Determining relevant features through pearson correlation coefficient.
@@ -32,14 +32,14 @@ House Prices Prediction dataset from Kaggle
   * Visualizing distribution of target variable using Q-Q plots before & after transformation.
   * Exporting the processed data to CSV files.
 
-* Model Development.
+* **Model Development**
   * Hyperparameter tuning through grid search.
   * Optimizing the model using the best parameters and fitting again.
   * Evaluating model's performance.
   * Visualizing model's performance by plotting the predicted values against the actual values.
-* Model Persistance.
+* **Model Persistance**
   * Saving the trained model to a joblib file so that it doesn't have to be trained again.
 
 ## Note
-This was my first machine learning project and I learned a lot while working on it. I'm sure that there's still a lot to improve here so I'll continue to work on this project going forward into the future.
+This was my first machine learning project and I learned a lot. I'm sure that there's still a lot to improve here so I'll continue to work on this project going forward into the future.
 Your feedback or contributions if any will be appreciated.
